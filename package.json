@@ -1,0 +1,29 @@
+{
+  "name": "geo",
+  "version": "1.0.0",
+  "description": "Requestor based geo info",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seekayel/geo.git"
+  },
+  "keywords": [],
+  "author": "Kam Lasater <kam.lasater@cyclic.sh>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seekayel/geo/issues"
+  },
+  "homepage": "https://github.com/seekayel/geo#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
