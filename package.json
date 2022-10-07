@@ -2,10 +2,10 @@
   "name": "geo",
   "version": "1.0.0",
   "description": "Requestor based geo info",
-  "main": "xindex.js",
+  "main": "index.js",
   "scripts": {
     "dev": "env-cmd nodemon index.js",
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
